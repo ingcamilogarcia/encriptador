@@ -1,0 +1,125 @@
+/*body{
+
+background: rgb(233, 230, 230);*/
+/*background-image: url("../img/cgs.png");
+}*/
+ 
+body{
+    background-image: url("../img/2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    width: 100% ;
+    
+}
+body:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+    position: absolute;
+    opacity: 0.8;
+    
+}
+/**{
+    background-image: url("../img/cgs.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}*/
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+}
+.campo-texto{
+     font-size: 22px;
+     border:none;
+     outline: none; 
+     color: rgb(199, 5, 5);
+     height: 600px;
+     width:700px ; 
+     margin-top: 80px; 
+     resize: none;
+     background: none;
+    }
+    .campo-texto::placeholder { 
+        color: #0000ff;
+        border: none;
+        
+    }
+
+  
+ .textos h3{
+    color: gray;
+    position: fixed;
+    margin-top: 400px;
+    text-align: right;
+    padding: 80px;
+ }
+
+ .textos p{
+    color: gray;
+    position: fixed;
+    margin-top: 450px;
+    text-align: right;
+    padding: 90px;
+ }
+   
+    .btnencriptar{
+    height: 50px;
+    width: 200px;
+    color: #FFFFFF;
+    margin-right: 200px;
+    background-color: #0000ff;
+    border-radius: 20px;
+   
+    }
+     .btndesencriptar{
+        height: 50px;
+        width: 200px;
+        color: #FFFFFF;
+        background-color: #0000ff;
+        border-radius: 20px;
+      }
+
+    #campo-mensaje{
+        background: rgb(253, 253, 253);
+        font-size: 22px;
+        height: 600px;
+        width: 400px;
+        float: right;
+        resize: none;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        margin-top: 10px;
+        padding: 20px;
+        background-image: url("/img/muneco.png");
+        background-repeat: no-repeat;
+        background-position: 100px;
+    }
+
+    footer{
+        position: relative;
+        z-index: 1;
+        margin-top: 20px;
+        text-align: center;
+        color: rgb(250, 249, 249);  
+        background-color: rgb(3, 3, 3);
+        font-size: 30px;
+        height: 50px;
+        width: 100%;
+       
+    
+    }
+
